@@ -1,0 +1,24 @@
+{
+  "name": "mmm-planetarium",
+  "version": "1.0.0",
+  "description": "A module for MagicMirror² to make your mirror to a planetarium.",
+  "main": "MMM-Planetarium.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMRIZE/MMM-Planetarium.git"
+  },
+  "keywords": [
+    "planetarium",
+    "astronomy",
+    "stars"
+  ],
+  "author": "MMRIZE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MMRIZE/MMM-Planetarium/issues"
+  },
+  "homepage": "https://github.com/MMRIZE/MMM-Planetarium#readme"
+}
