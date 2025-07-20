@@ -15,17 +15,17 @@ git clone https://github.com/MMRIZE/MMM-Planetarium
 
 ## Configuration
 ```js
-{
-  module: 'MMM-Planetarium',
-  position: 'fullscreen_below', //Recommended
-  config: {
-    latitude: 50.0836, //Your position
-    longitude: -8.4694,
-    az: 0, // Azimuth : 0 means North, 90 means East, 180 means South, ...
-    panoffset: -0.1, // panning step by AZ
-    paninterval: 250, // milliseconds. 0 => no pan.
-  }
-}
+    {
+      module: 'MMM-Planetarium',
+      position: 'fullscreen_below', //Recommended
+      config: {
+        latitude: 50.0836, //Your position
+        longitude: -8.4694,
+        az: 0, // Azimuth : 0 means North, 90 means East, 180 means South, ...
+        panoffset: -0.1, // panning step by AZ
+        paninterval: 250, // milliseconds. 0 => no pan.
+      }
+    },
 ```
 All options of **VirtualSky** would be available (even keyboard shortcuts..)
 - See. https://slowe.github.io/VirtualSky/#options There are also some examples in that page.
