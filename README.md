@@ -2,7 +2,8 @@
 MagicMirror Module to display constellations, stars, galaxy, ... using VirtualSky Library
 
 ## Screenshot
-![screenshot](https://raw.githubusercontent.com/MMRIZE/public_ext_storage/main/MMM-Planetarium/mmm_planetarium.png)
+
+![screenshot](screenshot.png)
 
 ## Concept
 With the great library [Virtualsky](https://github.com/slowe/VirtualSky) You can show planetarium in your MagicMirror.
