@@ -1,4 +1,4 @@
-// MagicMirror Module to display a planetarium in the MagicMirror.
+/* globals S, Module */
 
 Module.register("MMM-Planetarium", {
   defaults: {
@@ -58,7 +58,7 @@ Module.register("MMM-Planetarium", {
     return wrapper
   },
 
-  notificationReceived: function (notification, payload, sender) {
+  notificationReceived: function (notification) {
     if (notification === 'MODULE_DOM_CREATED') {
       this.run()
     }

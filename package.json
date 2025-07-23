@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "A module for MagicMirror² to make your mirror to a planetarium.",
   "main": "MMM-Planetarium.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "test": "node --run lint"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/MMRIZE/MMM-Planetarium/issues"
   },
-  "homepage": "https://github.com/MMRIZE/MMM-Planetarium#readme"
+  "homepage": "https://github.com/MMRIZE/MMM-Planetarium#readme",
+  "devDependencies": {
+    "@eslint/css": "^0.10.0",
+    "@eslint/js": "^9.31.0",
+    "@eslint/markdown": "^7.1.0",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0"
+  }
 }
