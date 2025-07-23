@@ -1,4 +1,5 @@
 # MMM-Planetarium
+
 MagicMirror Module to display constellations, stars, galaxy, ... using VirtualSky Library
 
 ## Screenshot
@@ -6,15 +7,29 @@ MagicMirror Module to display constellations, stars, galaxy, ... using VirtualSk
 ![screenshot](screenshot.png)
 
 ## Concept
+
 With the great library [Virtualsky](https://github.com/slowe/VirtualSky) You can show planetarium in your MagicMirror.
 
 ## Installation
+
+To install the module, go to your MagicMirror's `modules` directory and clone the repository:
+
 ```sh
-cd <YOUR_MAGICMIRROR_DIR>/modules
+cd ~/MagicMirror/modules
 git clone https://github.com/MMRIZE/MMM-Planetarium
 ```
 
+## Update
+
+To update the module to the latest version, navigate to the module's directory and pull the latest changes:
+
+```sh
+cd ~/MagicMirror/modules/MMM-Planetarium
+git pull
+```
+
 ## Configuration
+
 ```js
     {
       module: 'MMM-Planetarium',
@@ -28,10 +43,13 @@ git clone https://github.com/MMRIZE/MMM-Planetarium
       }
     },
 ```
+
 All options of **VirtualSky** would be available (even keyboard shortcuts..)
+
 - See. https://slowe.github.io/VirtualSky/#options There are also some examples in that page.
 
 ## Author
+
 - Seongnoh Yi (eouia0819@gmail.com)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y56IFLK)
