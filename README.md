@@ -53,3 +53,7 @@ All options of **VirtualSky** would be available (even keyboard shortcuts..)
 - Seongnoh Yi (eouia0819@gmail.com)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y56IFLK)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
